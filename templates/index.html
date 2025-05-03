@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cuestionario AutoNeura AI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/styles.css">
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f6fb; margin: 0; }
+        .container { max-width: 800px; margin: 40px auto; background: #fff; padding: 30px 40px 20px 40px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.09);}
+        h1 { text-align: center; color: #0b4e8a; margin-bottom: 10px;}
+        .form-group { margin-bottom: 18px; }
+        label { font-weight: bold; display: block; margin-bottom: 5px;}
+        input[type="text"], input[type="email"], select, textarea { width: 100%; padding: 8px; border: 1px solid #b0b0b0; border-radius: 4px; }
+        textarea { resize: vertical; }
+        .checkbox-group, .radio-group { display: flex; flex-wrap: wrap; gap: 10px; }
+        .checkbox-group label, .radio-group label { font-weight: normal; }
+        .section-title { margin-top: 30px; color: #0b4e8a; font-size: 1.2em; }
+        button { background: #0b4e8a; color: #fff; border: none; padding: 12px 28px; border-radius: 5px; font-size: 1em; cursor: pointer; }
+        button:disabled { background: #aaa; }
+        .alert { padding: 10px; border-radius: 4px; margin-bottom: 15px; }
+        .alert-success { background: #eafbe7; color: #237a3a; }
+        .alert-error { background: #ffeaea; color: #b80000; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cuestionario de Cliente - AutoNeura AI</h1>
+        <form id="cuestionarioForm">
+            <div class="form-group">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+            <div class="form-group">
+                <label>¿A quién va dirigido tu Micro Nicho?</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="dirigido[]" value="Personales"> Usuarios Personales</label>
+                    <label><input type="checkbox" name="dirigido[]" value="Empresas"> Empresas</label>
+                    <label><input type="checkbox" name="dirigido[]" value="Todos"> Todos los usuarios</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="nicho">Nicho</label>
+                <input type="text" id="nicho" name="nicho" required>
+            </div>
+            <div class="form-group">
+                <label for="micro_nicho">Micro Nicho</label>
+                <input type="text" id="micro_nicho" name="micro_nicho" required>
+            </div>
+            <div class="form-group">
+                <label for="landing_pages">Landing Pages (mínimo 1, máximo 7, separadas por coma)</label>
+                <textarea id="landing_pages" name="landing_pages" rows="2" required placeholder="Ejemplo: https://tusitio.com/landing1, https://tusitio.com/landing2"></textarea>
+            </div>
+            <div class="section-title">Filtros Demográficos</div>
+            <div class="form-group">
+                <label for="idioma">Idioma de búsqueda</label>
+                <select id="idioma" name="idioma" required>
+                    <option value="">Seleccione un idioma</option>
+                    <option value="Español">Español</option>
+                    <option value="Inglés">Inglés</option>
+                    <option value="Portugués">Portugués</option>
+                    <option value="Francés">Francés</option>
+                    <option value="Alemán">Alemán</option>
+                    <option value="Italiano">Italiano</option>
+                    <option value="Ruso">Ruso</option>
+                    <option value="Chino">Chino</option>
+                    <option value="Japonés">Japonés</option>
+                    <option value="Árabe">Árabe</option>
+                    <!-- Agrega más idiomas si lo deseas -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="pais">País</label>
+                <select id="pais" name="pais" required>
+                    <option value="">Seleccione un país</option>
+                    <option value="Venezuela">Venezuela</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="México">México</option>
+                    <option value="España">España</option>
+                    <option value="Estados Unidos">Estados Unidos</option>
+                    <option value="Perú">Perú</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="Brasil">Brasil</option>
+                    <!-- Agrega más países si lo deseas -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="estado">Estado/Región</label>
+                <input type="text" id="estado" name="estado">
+            </div>
+            <div class="form-group">
+                <label for="edad">Edad</label>
+                <select id="edad" name="edad">
+                    <option value="">Seleccione rango de edad</option>
+                    <option value="18-24">18-24</option>
+                    <option value="25-34">25-34</option>
+                    <option value="35-44">35-44</option>
+                    <option value="45-54">45-54</option>
+                    <option value="55-64">55-64</option>
+                    <option value="65+">65+</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Género</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="genero" value="Masculino"> Masculino</label>
+                    <label><input type="radio" name="genero" value="Femenino"> Femenino</label>
+                    <label><input type="radio" name="genero" value="Otro"> Otro</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Emociones Detectadas</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="emociones[]" value="Alegría"> Alegría</label>
+                    <label><input type="checkbox" name="emociones[]" value="Tristeza"> Tristeza</label>
+                    <label><input type="checkbox" name="emociones[]" value="Ira"> Ira</label>
+                    <label><input type="checkbox" name="emociones[]" value="Sorpresa"> Sorpresa</label>
+                    <label><input type="checkbox" name="emociones[]" value="Neutralidad"> Neutralidad</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="musica">Preferencias Musicales</label>
+                <select id="musica" name="musica">
+                    <option value="">Seleccione un género musical</option>
+                    <option value="Pop">Pop</option>
+                    <option value="Rock">Rock</option>
+                    <option value="Reggaeton">Reggaeton</option>
+                    <option value="Salsa">Salsa</option>
+                    <option value="Clásica">Clásica</option>
+                    <option value="Jazz">Jazz</option>
+                    <option value="Electrónica">Electrónica</option>
+                    <option value="Rap">Rap</option>
+                    <!-- Agrega más géneros si lo deseas -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Habilidades Técnicas</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="habilidades[]" value="Programación"> Programación</label>
+                    <label><input type="checkbox" name="habilidades[]" value="Diseño Gráfico"> Diseño Gráfico</label>
+                    <label><input type="checkbox" name="habilidades[]" value="Marketing Digital"> Marketing Digital</label>
+                    <label><input type="checkbox" name="habilidades[]" value="Redes Sociales"> Redes Sociales</label>
+                    <label><input type="checkbox" name="habilidades[]" value="Ventas"> Ventas</label>
+                    <label><input type="checkbox" name="habilidades[]" value="Otro"> Otro</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="tiempo_sesion">Tiempo Promedio de Sesión</label>
+                <select id="tiempo_sesion" name="tiempo_sesion">
+                    <option value="">Seleccione un rango</option>
+                    <option value="Menos de 10 minutos">Menos de 10 minutos</option>
+                    <option value="Entre 10-30 minutos">Entre 10-30 minutos</option>
+                    <option value="Más de 30 minutos">Más de 30 minutos</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="intereses">Intereses Específicos</label>
+                <input type="text" id="intereses" name="intereses" placeholder="Ejemplo: IA, automatización, redes sociales">
+            </div>
+            <div class="form-group">
+                <label for="comportamiento">Comportamiento Digital</label>
+                <textarea id="comportamiento" name="comportamiento" rows="2" placeholder="Describe el comportamiento digital deseado"></textarea>
+            </div>
+            <div id="alerta" class="alert" style="display:none"></div>
+            <div style="text-align:center;">
+                <button type="submit" id="enviarBtn">Enviar Cuestionario</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+    document.getElementById('cuestionarioForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const form = e.target;
+        const data = {};
+        new FormData(form).forEach((value, key) => {
+            if (key.endsWith('[]')) {
+                const k = key.slice(0, -2);
+                if (!data[k]) data[k] = [];
+                data[k].push(value);
+            } else if (data[key]) {
+                if (!Array.isArray(data[key])) data[key] = [data[key]];
+                data[key].push(value);
+            } else {
+                data[key] = value;
+            }
+        });
+
+        // Validación de landing pages
+        const landingPages = data.landing_pages.split(',').map(s => s.trim()).filter(s => s);
+        if (landingPages.length < 1 || landingPages.length > 7) {
+            mostrarAlerta("Debes ingresar entre 1 y 7 landing pages separadas por coma.", false);
+            return;
+        }
+        data.landing_pages = landingPages;
+
+        document.getElementById('enviarBtn').disabled = true;
+
+        fetch('/enviar_cuestionario', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify(data)
+        })
+        .then(res => res.json())
+        .then(res => {
+            if (res.ok) {
+                mostrarAlerta("¡Cuestionario enviado correctamente!", true);
+                form.reset();
+            } else {
+                mostrarAlerta("Error: " + (res.error || "No se pudo enviar el cuestionario."), false);
+            }
+            document.getElementById('enviarBtn').disabled = false;
+        })
+        .catch(err => {
+            mostrarAlerta("Error al enviar el formulario: " + err, false);
+            document.getElementById('enviarBtn').disabled = false;
+        });
+    });
+
+    function mostrarAlerta(msg, exito) {
+        var alerta = document.getElementById('alerta');
+        alerta.textContent = msg;
+        alerta.className = 'alert ' + (exito ? 'alert-success' : 'alert-error');
+        alerta.style.display = 'block';
+        setTimeout(() => { alerta.style.display = 'none'; }, 5000);
+    }
+    </script>
+</body>
+</html>

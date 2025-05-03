@@ -1,0 +1,770 @@
+{
+  "US": {
+    "nombre": "Estados Unidos",
+    "estados": ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawái", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Luisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "Nuevo México", "Nueva York", "Carolina del Norte", "Dakota del Norte", "Ohio", "Oklahoma", "Oregón", "Pensilvania", "Rhode Island", "Carolina del Sur", "Dakota del Sur", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "Virginia Occidental", "Wisconsin", "Wyoming"]
+  },
+  "MX": {
+    "nombre": "México",
+    "estados": ["Aguascalientes", "Baja California", "Baja California Sur", "Campeche", "Chiapas", "Chihuahua", "Ciudad de México", "Coahuila", "Colima", "Durango", "Estado de México", "Guanajuato", "Guerrero", "Hidalgo", "Jalisco", "Michoacán", "Morelos", "Nayarit", "Nuevo León", "Oaxaca", "Puebla", "Querétaro", "Quintana Roo", "San Luis Potosí", "Sinaloa", "Sonora", "Tabasco", "Tamaulipas", "Tlaxcala", "Veracruz", "Yucatán", "Zacatecas"]
+  },
+  "CA": {
+    "nombre": "Canadá",
+    "estados": ["Alberta", "Columbia Británica", "Manitoba", "Nuevo Brunswick", "Terranova y Labrador", "Nueva Escocia", "Ontario", "Isla del Príncipe Eduardo", "Quebec", "Saskatchewan", "Territorios del Noroeste", "Nunavut", "Yukón"]
+  },
+  "BR": {
+    "nombre": "Brasil",
+    "estados": ["Acre", "Alagoas", "Amapá", "Amazonas", "Bahía", "Ceará", "Distrito Federal", "Espírito Santo", "Goiás", "Maranhão", "Mato Grosso", "Mato Grosso do Sul", "Minas Gerais", "Pará", "Paraíba", "Paraná", "Pernambuco", "Piauí", "Rio de Janeiro", "Rio Grande do Norte", "Rio Grande do Sul", "Rondônia", "Roraima", "Santa Catarina", "São Paulo", "Sergipe", "Tocantins"]
+  },
+  "AR": {
+    "nombre": "Argentina",
+    "estados": ["Buenos Aires", "Catamarca", "Chaco", "Chubut", "Córdoba", "Corrientes", "Entre Ríos", "Formosa", "Jujuy", "La Pampa", "La Rioja", "Mendoza", "Misiones", "Neuquén", "Río Negro", "Salta", "San Juan", "San Luis", "Santa Cruz", "Santa Fe", "Santiago del Estero", "Tierra del Fuego", "Tucumán"]
+  },
+  "GB": {
+    "nombre": "Reino Unido",
+    "estados": ["Inglaterra", "Escocia", "Gales", "Irlanda del Norte"]
+  },
+  "FR": {
+    "nombre": "Francia",
+    "estados": ["Auvernia-Ródano-Alpes", "Borgoña-Franco Condado", "Bretaña", "Centro-Valle de Loira", "Corsica", "Gran Este", "Hauts-de-France", "Isla de Francia", "Normandía", "Nueva Aquitania", "Occitania", "Países del Loira", "Provenza-Alpes-Costa Azul"]
+  },
+  "DE": {
+    "nombre": "Alemania",
+    "estados": ["Baden-Württemberg", "Baviera", "Berlín", "Brandeburgo", "Bremen", "Hamburgo", "Hesse", "Mecklemburgo-Pomerania Occidental", "Baja Sajonia", "Renania del Norte-Westfalia", "Renania-Palatinado", "Sarre", "Sajonia", "Sajonia-Anhalt", "Schleswig-Holstein", "Turingia"]
+  },
+  "IN": {
+    "nombre": "India",
+    "estados": ["Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh", "Goa", "Gujarat", "Haryana", "Himachal Pradesh", "Jammu y Cachemira", "Jharkhand", "Karnataka", "Kerala", "Madhya Pradesh", "Maharashtra", "Manipur", "Meghalaya", "Mizoram", "Nagaland", "Orissa", "Punjab", "Rajastán", "Sikkim", "Tamil Nadu", "Telangana", "Tripura", "Uttar Pradesh", "Uttarakhand", "Bengala Occidental"]
+  },
+  "CN": {
+    "nombre": "China",
+    "estados": ["Anhui", "Beijing", "Chongqing", "Fujian", "Gansu", "Guangdong", "Guangxi", "Guizhou", "Hainan", "Hebei", "Heilongjiang", "Henan", "Hong Kong", "Hubei", "Hunan", "Jiangsu", "Jiangxi", "Jilin", "Liaoning", "Macau", "Ningxia", "Qinghai", "Shaanxi", "Shandong", "Shanghai", "Shanxi", "Sichuan", "Tianjin", "Tibet", "Xinjiang", "Yunnan", "Zhejiang"]
+  },
+  "JP": {
+    "nombre": "Japón",
+    "estados": ["Aichi", "Akita", "Aomori", "Chiba", "Ehime", "Fukui", "Fukuoka", "Fukushima", "Gifu", "Gunma", "Hiroshima", "Hokkaido", "Hyogo", "Ibaraki", "Ishikawa", "Iwate", "Kagawa", "Kagoshima", "Kanagawa", "Kochi", "Kumamoto", "Kyoto", "Mie", "Miyagi", "Miyazaki", "Nagano", "Nagasaki", "Nara", "Niigata", "Oita", "Okayama", "Okinawa", "Osaka", "Saga", "Saitama", "Shiga", "Shimane", "Shizuoka", "Tochigi", "Tokushima", "Tokyo", "Tottori", "Toyama", "Wakayama", "Yamagata", "Yamaguchi", "Yamanashi"]
+  },
+  "RU": {
+    "nombre": "Rusia",
+    "estados": ["Adiguesia", "Altái", "Altái, República de", "Amur", "Arjánguelsk", "Astracán", "Bashkortostán", "Belgorod", "Brjansk", "Buriatia", "Chechenia", "Cheliábinsk", "Chukotka", "Chuvashia", "Dagestán", "Ingusetia", "Irkutsk", "Ivanovo", "Kabardino-Balkaria", "Kaliningrado", "Kalmykia", "Kaluga", "Kamchatka", "Karachay-Cherkessia", "Karelia", "Kemerovo", "Khabarovsk", "Khakasia", "Khanty-Mansi", "Kirov", "Komi", "Kostroma", "Krasnodar", "Krasnoyarsk", "Kurgan", "Kursk", "Leningrado", "Lipetsk", "Magadan", "Mari El", "Mordovia", "Moscú", "Moscú, óblast de", "Murmansk", "Nizhni Nóvgorod", "Nóvgorod", "Novosibirsk", "Omsk", "Orenburg", "Orjol", "Penza", "Perm", "Primorie", "Pskov", "Rostov", "Ryazan", "Sakha", "Sakhalin", "Samara", "San Petersburgo", "Saratov", "Smolensk", "Stavropol", "Sverdlovsk", "Tambov", "Tatarstán", "Tiumén", "Tver", "Tomsk", "Tula", "Túva", "Udmurtia", "Ulianovsk", "Vladimir", "Volgogrado", "Vólogda", "Vorónezh", "Yamalo-Nenets", "Yaroslavl", "Zabaikalie"]
+  },
+  "ZA": {
+    "nombre": "Sudáfrica",
+    "estados": ["Eastern Cape", "Free State", "Gauteng", "KwaZulu-Natal", "Limpopo", "Mpumalanga", "Northern Cape", "North West", "Western Cape"]
+  },
+  "EG": {
+    "nombre": "Egipto",
+    "estados": ["Al Iskandariyah", "Al Isma'iliyah", "Al Jizah", "Al Qahirah", "Al Qalyubiyah", "Al Wadi al Jadid", "Ash Sharqiyah", "Aswan", "Asyut", "Bani Suwayf", "Bur Sa'id", "Dumyat", "Fayyum", "Gharbiyah", "Giza", "Ismailia", "Kafr ash Shaykh", "Matruh", "Minya", "Monufiyah", "New Valley", "Qina", "Suhaj", "Sina Norte", "Sina Sur", "Sohag"]
+  },
+  "AU": {
+    "nombre": "Australia",
+    "estados": ["Nueva Gales del Sur", "Queensland", "Australia del Sur", "Tasmania", "Victoria", "Australia Occidental", "Territorio de la Capital Australiana", "Territorio del Norte"]
+  },
+  "ES": {
+    "nombre": "España",
+    "estados": ["Andalucía", "Aragón", "Asturias", "Islas Baleares", "Canarias", "Cantabria", "Castilla y León", "Castilla-La Mancha", "Cataluña", "Comunidad Valenciana", "Extremadura", "Galicia", "Madrid", "Región de Murcia", "Navarra", "País Vasco", "La Rioja", "Ceuta", "Melilla"]
+  },
+  "IT": {
+    "nombre": "Italia",
+    "estados": ["Abruzzo", "Basilicata", "Calabria", "Campania", "Emilia-Romaña", "Friuli-Venecia Julia", "Lacio", "Liguria", "Lombardía", "Marcas", "Molise", "Piamonte", "Apulia", "Cerdeña", "Sicilia", "Toscana", "Trentino-Alto Adigio", "Umbría", "Valle de Aosta", "Véneto"]
+  },
+  "KR": {
+    "nombre": "Corea del Sur",
+    "estados": ["Busan", "Chungcheong del Norte", "Chungcheong del Sur", "Daegu", "Daejeon", "Gangwon", "Gwangju", "Gyeonggi", "Gyeongsang del Norte", "Gyeongsang del Sur", "Incheon", "Jeju", "Jeolla del Norte", "Jeolla del Sur", "Seúl", "Ulsan"]
+  },
+  "TR": {
+    "nombre": "Turquía",
+    "estados": ["Adana", "Adiyaman", "Afyonkarahisar", "Agri", "Aksaray", "Amasya", "Ankara", "Antalya", "Ardahan", "Artvin", "Aydin", "Balikesir", "Bartin", "Batman", "Bayburt", "Bilecik", "Bingol", "Bitlis", "Bolu", "Burdur", "Bursa", "Canakkale", "Cankiri", "Corum", "Denizli", "Diyarbakir", "Duzce", "Edirne", "Elazig", "Erzincan", "Erzurum", "Eskisehir", "Gaziantep", "Giresun", "Gumushane", "Hakkari", "Hatay", "Igdir", "Isparta", "Istanbul", "Izmir", "Kahramanmaras", "Karabuk", "Karaman", "Kars", "Kastamonu", "Kayseri", "Kilis", "Kirikkale", "Kirklareli", "Kirsehir", "Kocaeli", "Konya", "Kutahya", "Malatya", "Manisa", "Mardin", "Mersin", "Mugla", "Mus", "Nevsehir", "Nigde", "Ordu", "Osmaniye", "Rize", "Sakarya", "Samsun", "Sanliurfa", "Siirt", "Sinop", "Sirnak", "Sivas", "Tekirdag", "Tokat", "Trabzon", "Tunceli", "Usak", "Van", "Yalova", "Yozgat", "Zonguldak"]
+  },
+  "NL": {
+    "nombre": "Países Bajos",
+    "estados": ["Drente", "Flevolanda", "Frisia", "Gelderland", "Groninga", "Limburgo", "Brabante Septentrional", "Holanda Meridional", "Holanda Septentrional", "Overijssel", "Utrecht", "Zelanda"]
+  },
+  "PL": {
+    "nombre": "Polonia",
+    "estados": ["Baja Silesia", "Cuyavia-Pomerania", "Lublin", "Lubusz", "Łódź", "Pequeña Polonia", "Mazovia", "Opole", "Subcarpacia", "Podlasie", "Pomerania", "Silesia", "Santa Cruz", "Varmia-Masuria", "Gran Polonia", "Lubelskie"]
+  },
+  "BE": {
+    "nombre": "Bélgica",
+    "estados": ["Bruselas-Capital", "Flandes Oriental", "Flandes Occidental", "Valonia"]
+  },
+  "SE": {
+    "nombre": "Suecia",
+    "estados": ["Blekinge", "Dalarna", "Gotland", "Gävleborg", "Halland", "Jämtland", "Jönköping", "Kalmar", "Kronoberg", "Norrbotten", "Örebro", "Östergötland", "Skåne", "Södermanland", "Uppsala", "Värmland", "Västerbotten", "Västernorrland", "Västmanland", "Västra Götaland"]
+  },
+  "CH": {
+    "nombre": "Suiza",
+    "estados": ["Argovia", "Appenzell Rodas Exteriores", "Appenzell Rodas Interiores", "Basel-Landschaft", "Basel-Stadt", "Berna", "Friburgo", "Ginebra", "Glaris", "Grisones", "Jura", "Lucerna", "Neuchâtel", "Nidwalden", "Obwalden", "San Galo", "Schaffhausen", "Schwyz", "Solothurn", "Ticino", "Turgovia", "Uri", "Valais", "Vaud", "Zug", "Zúrich"]
+  },
+  "AT": {
+    "nombre": "Austria",
+    "estados": ["Burgenland", "Carintia", "Alta Austria", "Salzburgo", "Estiria", "Tirol", "Viena", "Vorarlberg"]
+  },
+  "NO": {
+    "nombre": "Noruega",
+    "estados": ["Akershus", "Aust-Agder", "Buskerud", "Finnmark", "Hedmark", "Hordaland", "Møre og Romsdal", "Nord-Trøndelag", "Nordland", "Oppland", "Oslo", "Rogaland", "Sogn og Fjordane", "Sør-Trøndelag", "Telemark", "Troms", "Vest-Agder", "Vestfold", "Østfold"]
+  },
+  "DK": {
+    "nombre": "Dinamarca",
+    "estados": ["Capital", "Centro", "Jutlandia del Norte", "Jutlandia Central", "Islas Feroe", "Groenlandia", "Región de Zelanda", "Región de Syddanmark"]
+  },
+  "IE": {
+    "nombre": "Irlanda",
+    "estados": ["Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry", "Kildare", "Kilkenny", "Laois", "Leitrim", "Limerick", "Longford", "Louth", "Mayo", "Meath", "Monaghan", "Offaly", "Roscommon", "Sligo", "Tipperary", "Waterford", "Westmeath", "Wexford", "Wicklow"]
+  },
+  "FI": {
+    "nombre": "Finlandia",
+    "estados": ["Aland", "Etelä-Karjala", "Etelä-Pohjanmaa", "Etelä-Savo", "Kainuu", "Kanta-Häme", "Keski-Pohjanmaa", "Keski-Suomi", "Kymenlaakso", "Lappi", "Pirkanmaa", "Pohjanmaa", "Pohjois-Karjala", "Pohjois-Pohjanmaa", "Pohjois-Savo", "Päijät-Häme", "Satakunta", "Uusimaa", "Varsinais-Suomi"]
+  },
+  "NZ": {
+    "nombre": "Nueva Zelanda",
+    "estados": ["Auckland", "Bay of Plenty", "Canterbury", "Gisborne", "Hawke's Bay", "Manawatu-Wanganui", "Marlborough", "Nelson", "Northland", "Otago", "Southland", "Taranaki", "Tasman", "Waikato", "Wellington", "West Coast"]
+  },
+  "SG": {
+    "nombre": "Singapur",
+    "estados": ["Central Region", "East Region", "North Region", "North-East Region", "West Region"]
+  },
+  "MY": {
+    "nombre": "Malasia",
+    "estados": ["Johor", "Kedah", "Kelantan", "Melaka", "Negeri Sembilan", "Pahang", "Perak", "Perlis", "Penang", "Sabah", "Sarawak", "Selangor", "Terengganu", "Kuala Lumpur", "Labuan", "Putrajaya"]
+  },
+  "PH": {
+    "nombre": "Filipinas",
+    "estados": ["Abra", "Agusan del Norte", "Agusan del Sur", "Aklan", "Albay", "Antique", "Apayao", "Aurora", "Basilan", "Bataan", "Batanes", "Batangas", "Benguet", "Biliran", "Bohol", "Bukidnon", "Bulacan", "Cagayan", "Camarines Norte", "Camarines Sur", "Camiguin", "Capiz", "Catanduanes", "Cavite", "Cebu", "Compostela Valley", "Cotabato", "Davao del Norte", "Davao del Sur", "Davao Oriental", "Dinagat Islands", "Eastern Samar", "Guimaras", "Ifugao", "Ilocos Norte", "Ilocos Sur", "Iloilo", "Isabela", "Kalinga", "La Union", "Laguna", "Lanao del Norte", "Lanao del Sur", "Leyte", "Maguindanao", "Marinduque", "Masbate", "Misamis Occidental", "Misamis Oriental", "Mountain Province", "Negros Occidental", "Negros Oriental", "Northern Samar", "Nueva Ecija", "Nueva Vizcaya", "Occidental Mindoro", "Oriental Mindoro", "Palawan", "Pampanga", "Pangasinan", "Quezon", "Quirino", "Rizal", "Romblon", "Samar", "Sarangani", "Siquijor", "Sorsogon", "South Cotabato", "Southern Leyte", "Sultan Kudarat", "Sulu", "Surigao del Norte", "Surigao del Sur", "Tarlac", "Tawi-Tawi", "Zambales", "Zamboanga del Norte", "Zamboanga del Sur", "Zamboanga Sibugay"]
+  },
+  "TH": {
+    "nombre": "Tailandia",
+    "estados": ["Amnat Charoen", "Ang Thong", "Bueng Kan", "Buri Ram", "Chachoengsao", "Chai Nat", "Chaiyaphum", "Chanthaburi", "Chiang Mai", "Chiang Rai", "Chonburi", "Chumphon", "Kalasin", "Kamphaeng Phet", "Kanchanaburi", "Khon Kaen", "Krabi", "Lampang", "Lamphun", "Loei", "Lopburi", "Mae Hong Son", "Maha Sarakham", "Mukdahan", "Nakhon Nayok", "Nakhon Pathom", "Nakhon Phanom", "Nakhon Ratchasima", "Nakhon Sawan", "Nakhon Si Thammarat", "Nan", "Narathiwat", "Nong Bua Lam Phu", "Nong Khai", "Nonthaburi", "Pathum Thani", "Pattani", "Phang Nga", "Phatthalung", "Phayao", "Phetchabun", "Phetchaburi", "Phichit", "Phitsanulok", "Phrae", "Phuket", "Prachinburi", "Prachuap Khiri Khan", "Ranong", "Ratchaburi", "Rayong", "Roi Et", "Sa Kaeo", "Sakon Nakhon", "Samut Prakan", "Samut Sakhon", "Samut Songkhram", "Saraburi", "Satun", "Si Sa Ket", "Sing Buri", "Sisaket", "Songkhla", "Sukhothai", "Suphan Buri", "Surat Thani", "Surin", "Tak", "Trang", "Trat", "Ubon Ratchathani", "Udon Thani", "Uthai Thani", "Uttaradit", "Yala", "Yasothon"]
+  },
+  "ID": {
+    "nombre": "Indonesia",
+    "estados": ["Aceh", "Bali", "Bangka Belitung", "Banten", "Bengkulu", "Gorontalo", "Jambi", "Java Central", "Java Este", "Java Occidental", "Kalimantan Central", "Kalimantan Este", "Kalimantan Norte", "Kalimantan Sur", "Kalimantan Oeste", "Lampung", "Maluku", "Maluku del Norte", "Nusa Tenggara Occidental", "Nusa Tenggara Oriental", "Papua", "Papua Occidental", "Riau", "Islas Riau", "Sulawesi Central", "Sulawesi del Norte", "Sulawesi del Sur", "Sulawesi del Sur Este", "Sumatera del Norte", "Sumatera del Sur", "Sumatera Occidental", "Yogyakarta"]
+  },
+  "NG": {
+    "nombre": "Nigeria",
+    "estados": ["Abia", "Adamawa", "Akwa Ibom", "Anambra", "Bauchi", "Bayelsa", "Benue", "Borno", "Cross River", "Delta", "Ebonyi", "Edo", "Ekiti", "Enugu", "Gombe", "Imo", "Jigawa", "Kaduna", "Kano", "Katsina", "Kebbi", "Kogi", "Kwara", "Lagos", "Nasarawa", "Niger", "Ogun", "Ondo", "Osun", "Oyo", "Plateau", "Rivers", "Sokoto", "Taraba", "Yobe", "Zamfara", "FCT - Abuja"]
+  },
+  "PK": {
+    "nombre": "Pakistán",
+    "estados": ["Baluchistán", "Gilgit-Baltistán", "Islamabad Capital Territory", "Khyber Pakhtunkhwa", "Punjab", "Sindh", "Azad Jammu y Cachemira"]
+  },
+  "BD": {
+    "nombre": "Bangladesh",
+    "estados": ["Barisal", "Chittagong", "Dhaka", "Khulna", "Mymensingh", "Rajshahi", "Rangpur", "Sylhet"]
+  },
+  "EG": {
+    "nombre": "Egipto",
+    "estados": ["Al Iskandariyah", "Al Isma'iliyah", "Al Jizah", "Al Qahirah", "Al Qalyubiyah", "Al Wadi al Jadid", "Ash Sharqiyah", "Aswan", "Asyut", "Bani Suwayf", "Bur Sa'id", "Dumyat", "Fayyum", "Gharbiyah", "Giza", "Ismailia", "Kafr ash Shaykh", "Matruh", "Minya", "Monufiyah", "New Valley", "Qina", "Suhaj", "Sina Norte", "Sina Sur", "Sohag"]
+  },
+  "CO": {
+    "nombre": "Colombia",
+    "estados": ["Amazonas", "Antioquia", "Arauca", "Atlántico", "Bolívar", "Boyacá", "Caldas", "Caquetá", "Casanare", "Cauca", "Cesar", "Chocó", "Córdoba", "Cundinamarca", "Guainía", "Guaviare", "Huila", "La Guajira", "Magdalena", "Meta", "Nariño", "Norte de Santander", "Putumayo", "Quindío", "Risaralda", "San Andrés y Providencia", "Santander", "Sucre", "Tolima", "Valle del Cauca", "Vaupés", "Vichada"]
+  },
+  "CL": {
+    "nombre": "Chile",
+    "estados": ["Región de Arica y Parinacota", "Región de Tarapacá", "Región de Antofagasta", "Región de Atacama", "Región de Coquimbo", "Región de Valparaíso", "Región Metropolitana de Santiago", "Región del Libertador General Bernardo O'Higgins", "Región del Maule", "Región de Ñuble", "Región del Biobío", "Región de La Araucanía", "Región de Los Ríos", "Región de Los Lagos", "Región de Aysén del General Carlos Ibáñez del Campo", "Región de Magallanes y de la Antártica Chilena"]
+  },
+  "VE": {
+    "nombre": "Venezuela",
+    "estados": ["Amazonas", "Anzoátegui", "Apure", "Aragua", "Barinas", "Bolívar", "Carabobo", "Cojedes", "Delta Amacuro", "Distrito Capital", "Falcón", "Guárico", "Lara", "Mérida", "Miranda", "Monagas", "Nueva Esparta", "Portuguesa", "Sucre", "Táchira", "Trujillo", "Vargas", "Yaracuy", "Zulia"]
+  },
+  "PE": {
+    "nombre": "Perú",
+    "estados": ["Amazonas", "Áncash", "Apurímac", "Arequipa", "Ayacucho", "Cajamarca", "Callao", "Cusco", "Huancavelica", "Huánuco", "Ica", "Junín", "La Libertad", "Lambayeque", "Lima", "Loreto", "Madre de Dios", "Moquegua", "Pasco", "Piura", "Puno", "San Martín", "Tacna", "Tumbes", "Ucayali"]
+  },
+  "UA": {
+    "nombre": "Ucrania",
+    "estados": ["Cherkasy", "Chernihiv", "Chernivtsi", "Dnipropetrovsk", "Donetsk", "Ivano-Frankivsk", "Járkov", "Jersón", "Jmelnitski", "Kiev", "Kirovohrad", "Lugansk", "Lviv", "Mykolaiv", "Odesa", "Poltava", "Rivne", "Sumy", "Ternopil", "Vinnytsia", "Volyn", "Zakarpatia", "Zaporizhia", "Zhytomyr"]
+  },
+  "CZ": {
+    "nombre": "República Checa",
+    "estados": ["Praga", "Bohemia Central", "Bohemia del Sur", "Bohemia del Norte", "Moravia-Silesia", "Olomouc", "Zlín", "Moravia Central", "Vysočina", "Karlovy Vary", "Ústí nad Labem", "Liberec", "Pardubice"]
+  },
+  "GR": {
+    "nombre": "Grecia",
+    "estados": ["Ática", "Islas Jónicas", "Epiro", "Tesalia", "Macedonia Central", "Macedonia Occidental", "Macedonia Oriental y Tracia", "Peloponeso", "Islas del Norte del Egeo", "Islas del Sur del Egeo", "Creta"]
+  },
+  "PT": {
+    "nombre": "Portugal",
+    "estados": ["Aveiro", "Beja", "Braga", "Bragança", "Castelo Branco", "Coímbra", "Évora", "Faro", "Guarda", "Leiria", "Lisboa", "Portalegre", "Oporto", "Santarém", "Setúbal", "Viana do Castelo", "Vila Real", "Viseu"]
+  },
+  "HU": {
+    "nombre": "Hungría",
+    "estados": ["Bács-Kiskun", "Baranya", "Békés", "Borsod-Abaúj-Zemplén", "Csongrád", "Fejér", "Győr-Moson-Sopron", "Hajdú-Bihar", "Heves", "Jász-Nagykun-Szolnok", "Komárom-Esztergom", "Nógrád", "Pest", "Somogy", "Szabolcs-Szatmár-Bereg", "Jujat", "Tolna", "Vas", "Veszprém", "Zala"]
+  },
+  "RO": {
+    "nombre": "Rumania",
+    "estados": ["Alba", "Arad", "Arges", "Bacau", "Bihor", "Bistrita-Nasaud", "Botosani", "Brasov", "Braila", "Buzau", "Caras-Severin", "Cluj", "Constanta", "Covasna", "Dambovita", "Dolj", "Galati", "Giurgiu", "Gorj", "Harghita", "Hunedoara", "Ialomita", "Iasi", "Ilfov", "Maramures", "Mehedinti", "Mures", "Neamt", "Olt", "Prahova", "Satu Mare", "Salaj", "Sibiu", "Suceava", "Teleorman", "Timis", "Tulcea", "Vaslui", "Valcea", "Vrancea"]
+  },
+  "BG": {
+    "nombre": "Bulgaria",
+    "estados": ["Blagoevgrad", "Burgas", "Varna", "Veliko Tarnovo", "Vidin", "Vratsa", "Gabrovo", "Dobrich", "Kardzhali", "Kyustendil", "Lovech", "Montana", "Pazardzhik", "Pernik", "Pleven", "Plovdiv", "Razgrad", "Ruse", "Silistra", "Sliven", "Smolyan", "Sofia", "Sofia Provincia", "Stara Zagora", "Targovishte", "Haskovo", "Shumen", "Yambol"]
+  },
+  "DK": {
+    "nombre": "Dinamarca",
+    "estados": ["Capital", "Centro", "Jutlandia del Norte", "Jutlandia Central", "Islas Feroe", "Groenlandia", "Región de Zelanda", "Región de Syddanmark"]
+  },
+  "SA": {
+    "nombre": "Arabia Saudita",
+    "estados": ["Al Bahah", "Al Jawf", "Al Madinah", "Al Qassim", "Asir", "Eastern Province", "Ha'il", "Jizan", "Makkah", "Najran", "Northern Borders", "Riyadh", "Tabuk"]
+  },
+  "AE": {
+    "nombre": "Emiratos Árabes Unidos",
+    "estados": ["Abu Dhabi", "Ajman", "Dubai", "Fujairah", "Ras al-Khaimah", "Sharjah", "Umm al-Quwain"]
+  },
+  "IL": {
+    "nombre": "Israel",
+    "estados": ["Central", "Haifa", "Jerusalén", "Norte", "Sur", "Tel Aviv"]
+  },
+  "IR": {
+    "nombre": "Irán",
+    "estados": ["Alborz", "Ardabil", "Bushehr", "Chaharmahal y Bakhtiari", "Fars", "Gilan", "Golestán", "Hamadan", "Hormozgan", "Ilam", "Isfahán", "Jorasán del Norte", "Jorasán del Razavi", "Jorasán del Sur", "Juzestán", "Kermán", "Kermanshah", "Kohgiluyeh y Buyer Ahmad", "Kordestán", "Lorestan", "Markazi", "Mazandarán", "Qazvín", "Qom", "Semnán", "Sistan y Baluchistán", "Teherán", "Yazd", "Zanján"]
+  },
+  "IQ": {
+    "nombre": "Irak",
+    "estados": ["Al Anbar", "Al Basrah", "Al Muthanna", "Al Najaf", "Al Qadisiyyah", "An Najaf", "Arbil", "As Sulaymaniyah", "Babil", "Bagdad", "Dahuk", "Dhi Qar", "Diyala", "Karbala", "Kirkuk", "Maysan", "Nínive", "Salah ad Din", "Wasit"]
+  },
+  "AF": {
+    "nombre": "Afganistán",
+    "estados": ["Badakhshan", "Badghis", "Baghlan", "Balkh", "Bamyan", "Daykundi", "Farah", "Faryab", "Ghazni", "Ghor", "Helmand", "Herat", "Jowzjan", "Kabul", "Kandahar", "Kapisa", "Khost", "Kunar", "Kunduz", "Laghman", "Logar", "Nangarhar", "Nimroz", "Nuristan", "Paktia", "Paktika", "Panjshir", "Parwan", "Samangan", "Sar-e Pol", "Takhar", "Urozgan", "Wardak", "Zabul"]
+  },
+  "KZ": {
+    "nombre": "Kazajistán",
+    "estados": ["Akmola", "Aktobe", "Almaty", "Atyrau", "Baykonur", "East Kazakhstan", "Jambyl", "Karaganda", "Kostanay", "Kyzylorda", "Mangystau", "North Kazakhstan", "Nur-Sultan", "Pavlodar", "Shymkent", "South Kazakhstan", "West Kazakhstan"]
+  },
+  "UZ": {
+    "nombre": "Uzbekistán",
+    "estados": ["Andiján", "Bujará", "Fergana", "Jizzakh", "Namangan", "Navoi", "Qashqadaryo", "República de Karakalpakstán", "Samarcanda", "Sirdaryo", "Surjandarín", "Tashkent", "Tashkent City", "Xorazm"]
+  },
+  "VN": {
+    "nombre": "Vietnam",
+    "estados": ["An Giang", "Bà Rịa-Vũng Tàu", "Bắc Giang", "Bắc Kạn", "Bạc Liêu", "Bắc Ninh", "Bến Tre", "Bình Định", "Bình Dương", "Bình Phước", "Bình Thuận", "Cà Mau", "Cần Thơ", "Cao Bằng", "Đà Nẵng", "Đắk Lắk", "Đắk Nông", "Điện Biên", "Đồng Nai", "Đồng Tháp", "Gia Lai", "Hà Giang", "Hà Nam", "Hà Nội", "Hà Tĩnh", "Hải Dương", "Hải Phòng", "Hậu Giang", "Hòa Bình", "Hưng Yên", "Khánh Hòa", "Kiên Giang", "Kon Tum", "Lai Châu", "Lâm Đồng", "Lạng Sơn", "Lào Cai", "Long An", "Nam Định", "Nghệ An", "Ninh Bình", "Ninh Thuận", "Phú Thọ", "Phú Yên", "Quảng Bình", "Quảng Nam", "Quảng Ngãi", "Quảng Ninh", "Quảng Trị", "Sóc Trăng", "Sơn La", "Tây Ninh", "Thái Bình", "Thái Nguyên", "Thanh Hóa", "Thừa Thiên-Huế", "Tiền Giang", "TP Hồ Chí Minh", "Trà Vinh", "Tuyên Quang", "Vĩnh Long", "Vĩnh Phúc", "Yên Bái"]
+  },
+  "KH": {
+    "nombre": "Camboya",
+    "estados": ["Banteay Meanchey", "Battambang", "Kampong Cham", "Kampong Chhnang", "Kampong Speu", "Kampong Thom", "Kampot", "Kandal", "Kep", "Koh Kong", "Kratie", "Mondulkiri", "Oddar Meanchey", "Pailin", "Phnom Penh", "Preah Vihear", "Prey Veng", "Pursat", "Ratanakiri", "Siem Reap", "Preah Sihanouk", "Stung Treng", "Svay Rieng", "Takeo", "Tboung Khmum"]
+  },
+  "MM": {
+    "nombre": "Myanmar",
+    "estados": ["Ayeyarwady", "Bago", "Chin", "Kachin", "Kayah", "Kayin", "Magway", "Mandalay", "Mon", "Naypyidaw", "Rakhine", "Sagaing", "Shan", "Tanintharyi", "Yangon"]
+  },
+  "LK": {
+    "nombre": "Sri Lanka",
+    "estados": ["Central", "Eastern", "North Central", "Northern", "North Western", "Sabaragamuwa", "Southern", "Uva", "Western"]
+  },
+  "NP": {
+    "nombre": "Nepal",
+    "estados": ["Bagmati", "Bheri", "Dhaulagiri", "Gandaki", "Janakpur", "Karnali", "Koshi", "Lumbini", "Mahakali", "Mechi", "Narayani", "Rapti", "Sagarmatha", "Seti"]
+  },
+  "ET": {
+    "nombre": "Etiopía",
+    "estados": ["Addis Ababa", "Afar", "Amhara", "Benishangul-Gumuz", "Dire Dawa", "Gambela", "Harari", "Oromia", "Sidama", "Somali", "Southern Nations, Nationalities, and Peoples", "Tigray"]
+  },
+  "KE": {
+    "nombre": "Kenia",
+    "estados": ["Baringo", "Bomet", "Bungoma", "Busia", "Elgeyo Marakwet", "Embu", "Garissa", "Homa Bay", "Isiolo", "Kajiado", "Kakamega", "Kericho", "Kiambu", "Kilifi", "Kirinyaga", "Kisii", "Kisumu", "Kitui", "Kwale", "Laikipia", "Lamu", "Machakos", "Makueni", "Mandera", "Marsabit", "Meru", "Migori", "Mombasa", "Murang'a", "Nairobi", "Nakuru", "Nandi", "Narok", "Nyamira", "Nyandarua", "Nyeri", "Samburu", "Siaya", "Taita Taveta", "Tana River", "Tharaka Nithi", "Trans Nzoia", "Turkana", "Uasin Gishu", "Vihiga", "Wajir", "West Pokot"]
+  },
+  "TZ": {
+    "nombre": "Tanzania",
+    "estados": ["Arusha", "Dar es Salaam", "Dodoma", "Geita", "Iringa", "Kagera", "Katavi", "Kigoma", "Kilimanjaro", "Lindi", "Manyara", "Mara", "Mbeya", "Morogoro", "Mtwara", "Mwanza", "Njombe", "Pemba North", "Pemba South", "Pwani", "Rukwa", "Ruvuma", "Shinyanga", "Simiyu", "Singida", "Tabora", "Tanga", "Zanzibar Central/South", "Zanzibar North", "Zanzibar Urban/West"]
+  },
+  "UG": {
+    "nombre": "Uganda",
+    "estados": ["Abim", "Adjumani", "Agago", "Alebtong", "Amolatar", "Amudat", "Amuria", "Amuru", "Apac", "Arua", "Budaka", "Bududa", "Bugiri", "Buhweju", "Buikwe", "Bukedea", "Bukomansimbi", "Bukwo", "Bulambuli", "Buliisa", "Bundibugyo", "Bunyangabu", "Bushenyi", "Busia", "Butaleja", "Butambala", "Butebo", "Buvuma", "Buyende", "Dokolo", "Gomba", "Gulu", "Hoima", "Ibanda", "Iganga", "Isingiro", "Jinja", "Kaabong", "Kabale", "Kabarole", "Kaberamaido", "Kalangala", "Kaliro", "Kalungu", "Kampala", "Kamuli", "Kamwenge", "Kanungu", "Kapchorwa", "Kasese", "Katakwi", "Kayunga", "Kibaale", "Kiboga", "Kibuku", "Kiruhura", "Kiryandongo", "Kisoro", "Kitgum", "Koboko", "Kole", "Kotido", "Kumi", "Kween", "Kyankwanzi", "Kyegegwa", "Kyenjojo", "Kyotera", "Lamwo", "Lira", "Luuka", "Luwero", "Lwengo", "Lyantonde", "Manafwa", "Maracha", "Masaka", "Masindi", "Mayuge", "Mbale", "Mbarara", "Mitooma", "Mityana", "Moroto", "Moyo", "Mpigi", "Mubende", "Mukono", "Nakapiripirit", "Nakaseke", "Nakasongola", "Namayingo", "Namisindwa", "Namutumba", "Napak", "Nebbi", "Ngora", "Ntoroko", "Ntungamo", "Nwoya", "Omoro", "Otuke", "Oyam", "Pader", "Pakwach", "Pallisa", "Rakai", "Rubanda", "Rubirizi", "Rukiga", "Rukungiri", "Sembabule", "Serere", "Sheema", "Sironko", "Soroti", "Tororo", "Wakiso", "Yumbe", "Zombo"]
+  },
+  "GH": {
+    "nombre": "Ghana",
+    "estados": ["Ahafo", "Ashanti", "Bono", "Bono East", "Central", "Eastern", "Greater Accra", "Northern", "Oti", "Savannah", "Upper East", "Upper West", "Volta", "Western", "Western North"]
+  },
+  "DZ": {
+    "nombre": "Argelia",
+    "estados": ["Adrar", "Chlef", "Laghouat", "Oum El Bouaghi", "Batna", "Béjaïa", "Biskra", "Béchar", "Blida", "Bouira", "Tamanrasset", "Tébessa", "Tlemcen", "Tiaret", "Tizi Ouzou", "Argel", "Djelfa", "Jijel", "Sétif", "Saïda", "Skikda", "Sidi Bel Abbès", "Annaba", "Guelma", "Constantina", "Médéa", "Mostaganem", "M'Sila", "Mascara", "Ouargla", "Orán", "El Bayadh", "Illizi", "Bordj Bou Arréridj", "Boumerdès", "El Tarf", "Tindouf", "Tissemsilt", "El Oued", "Khenchela", "Souk Ahras", "Tipaza", "Mila", "Aïn Defla", "Naâma", "Aïn Témouchent", "Ghardaïa", "Relizane"]
+  },
+  "MA": {
+    "nombre": "Marruecos",
+    "estados": ["Tánger-Tetuán-Alhucemas", "Oriental", "Fez-Mequinez", "Rabat-Salé-Kenitra", "Beni Melal-Jenifra", "Casablanca-Settat", "Marrakech-Safí", "Draa-Tafilalet", "Sus-Masa", "Guelmim-Ued Nun", "El Aaiún-Saguía el Hamra", "Dajla-Río de Oro"]
+  },
+  "TN": {
+    "nombre": "Túnez",
+    "estados": ["Ariana", "Béja", "Ben Arous", "Bizerta", "Gabès", "Gafsa", "Jendouba", "Kairuán", "Kasserine", "Kebili", "Kef", "Mahdia", "Manouba", "Medenine", "Monastir", "Nabeul", "Sfax", "Sidi Bouzid", "Siliana", "Sousse", "Tataouine", "Tozeur", "Túnez", "Zaghouan"]
+  },
+  "SD": {
+    "nombre": "Sudán",
+    "estados": ["Al Jazirah", "Al Qadarif", "Al Wahdah", "Blue Nile", "Central Darfur", "East Darfur", "Gezira", "Kassala", "Khartoum", "North Darfur", "North Kordofan", "Northern", "Red Sea", "River Nile", "Sennar", "South Darfur", "South Kordofan", "West Darfur", "West Kordofan", "White Nile"]
+  },
+  "SN": {
+    "nombre": "Senegal",
+    "estados": ["Dakar", "Diourbel", "Fatick", "Kaffrine", "Kaolack", "Kédougou", "Kolda", "Louga", "Matam", "Saint-Louis", "Sédhiou", "Tambacounda", "Thiès", "Ziguinchor"]
+  },
+  "CI": {
+    "nombre": "Costa de Marfil",
+    "estados": ["Abidjan", "Bas-Sassandra", "Comoé", "Denguélé", "Gôh-Djiboua", "Lacs", "Lagunes", "Montagnes", "Sassandra-Marahoué", "Savanes", "Vallée du Bandama", "Woroba", "Yamoussoukro", "Zanzan"]
+  },
+  "CM": {
+    "nombre": "Camerún",
+    "estados": ["Adamaoua", "Centro", "Este", "Extremo Norte", "Litoral", "Noroeste", "Norte", "Oeste", "Sudoeste", "Sur"]
+  },
+  "AO": {
+    "nombre": "Angola",
+    "estados": ["Bengo", "Benguela", "Bié", "Cabinda", "Cuando Cubango", "Cuanza Norte", "Cuanza Sul", "Cunene", "Huambo", "Huíla", "Luanda", "Lunda Norte", "Lunda Sul", "Malanje", "Moxico", "Namibe", "Uíge", "Zaire"]
+  },
+  "ZW": {
+    "nombre": "Zimbabue",
+    "estados": ["Bulawayo", "Harare", "Manicaland", "Mashonaland Central", "Mashonaland East", "Mashonaland West", "Masvingo", "Matabeleland North", "Matabeleland South", "Midlands"]
+  },
+  "ZM": {
+    "nombre": "Zambia",
+    "estados": ["Central", "Copperbelt", "Eastern", "Luapula", "Lusaka", "Muchinga", "Northern", "North-Western", "Southern", "Western"]
+  },
+  "MZ": {
+    "nombre": "Mozambique",
+    "estados": ["Cabo Delgado", "Gaza", "Inhambane", "Manica", "Maputo", "Nampula", "Niassa", "Sofala", "Tete", "Zambezia"]
+  },
+  "BW": {
+    "nombre": "Botsuana",
+    "estados": ["Central", "Ghanzi", "Kgalagadi", "Kgatleng", "Kweneng", "Ngamiland", "North-East", "South-East", "Southern"]
+  },
+  "NA": {
+    "nombre": "Namibia",
+    "estados": ["Caprivi", "Erongo", "Hardap", "Karas", "Kavango", "Khomas", "Kunene", "Ohangwena", "Omaheke", "Omusati", "Oshana", "Oshikoto", "Otjozondjupa"]
+  },
+  "MG": {
+    "nombre": "Madagascar",
+    "estados": ["Alaotra-Mangoro", "Amoron'i Mania", "Analamanga", "Analanjirofo", "Androy", "Anosy", "Atsimo-Andrefana", "Atsimo-Atsinanana", "Atsinanana", "Betsiboka", "Boeny", "Bongolava", "Diana", "Haute Matsiatra", "Ihorombe", "Itasy", "Melaky", "Menabe", "Sava", "Vakinankaratra", "Vatovavy-Fitovinany"]
+  },
+  "GA": {
+    "nombre": "Gabón",
+    "estados": ["Estuaire", "Haut-Ogooué", "Moyen-Ogooué", "Ngounié", "Nyanga", "Ogooué-Ivindo", "Ogooué-Lolo", "Ogooué-Maritime", "Woleu-Ntem"]
+  },
+  "NE": {
+    "nombre": "Níger",
+    "estados": ["Agadez", "Diffa", "Dosso", "Maradi", "Niamey", "Tahoua", "Tillabéri", "Zinder"]
+  },
+  "ML": {
+    "nombre": "Malí",
+    "estados": ["Bamako", "Gao", "Kayes", "Kidal", "Koulikoro", "Mopti", "Ségou", "Sikasso", "Tombuctú"]
+  },
+  "BF": {
+    "nombre": "Burkina Faso",
+    "estados": ["Boucle du Mouhoun", "Cascades", "Centre", "Centre-Est", "Centre-Nord", "Centre-Ouest", "Centre-Sud", "Est", "Hauts-Bassins", "Nord", "Plateau-Central", "Sahel", "Sud-Ouest"]
+  },
+  "SL": {
+    "nombre": "Sierra Leona",
+    "estados": ["Eastern", "Northern", "North Western", "Southern", "Western Area"]
+  },
+  "LR": {
+    "nombre": "Liberia",
+    "estados": ["Bomi", "Bong", "Gbarpolu", "Grand Bassa", "Grand Cape Mount", "Grand Gedeh", "Grand Kru", "Lofa", "Margibi", "Maryland", "Montserrado", "Nimba", "River Cess", "River Gee", "Sinoe"]
+  },
+  "GM": {
+    "nombre": "Gambia",
+    "estados": ["Banjul", "Central River", "Lower River", "North Bank", "Upper River", "West Coast"]
+  },
+  "GW": {
+    "nombre": "Guinea-Bisáu",
+    "estados": ["Bafatá", "Biombo", "Bissau", "Bolama", "Cacheu", "Gabú", "Oio", "Quinara", "Tombali"]
+  },
+  "GN": {
+    "nombre": "Guinea",
+    "estados": ["Beyla", "Boffa", "Boké", "Conakry", "Coyah", "Dabola", "Dalaba", "Dinguiraye", "Dubréka", "Faranah", "Forécariah", "Fria", "Gaoual", "Guéckédou", "Kankan", "Kerouane", "Kindia", "Kissidougou", "Koubia", "Koundara", "Kouroussa", "Labé", "Lélouma", "Lola", "Macenta", "Mali", "Mamou", "Mandiana", "Nzérékoré", "Pita", "Siguiri", "Télimélé", "Tougué", "Yomou"]
+  },
+  "MW": {
+    "nombre": "Malaui",
+    "estados": ["Central", "Northern", "Southern"]
+  },
+  "RW": {
+    "nombre": "Ruanda",
+    "estados": ["Eastern", "Kigali", "Northern", "Southern", "Western"]
+  },
+  "SO": {
+    "nombre": "Somalia",
+    "estados": ["Awdal", "Bakool", "Banaadir", "Bari", "Bay", "Galguduud", "Gedo", "Hiiraan", "Jubbada Dhexe", "Jubbada Hoose", "Mudug", "Nugaal", "Sanaag", "Shabeellaha Dhexe", "Shabeellaha Hoose", "Sool", "Togdheer", "Woqooyi Galbeed"]
+  },
+  "CF": {
+    "nombre": "República Centroafricana",
+    "estados": ["Bamingui-Bangoran", "Basse-Kotto", "Haute-Kotto", "Haut-Mbomou", "Kémo", "Lobaye", "Mambéré-Kadéï", "Mbomou", "Nana-Grébizi", "Nana-Mambéré", "Ombella-M'Poko", "Ouaka", "Ouham", "Ouham-Pendé", "Sangha-Mbaéré", "Vakaga"]
+  },
+  "TD": {
+    "nombre": "Chad",
+    "estados": ["Batha", "Borkou", "Chari-Baguirmi", "Guéra", "Hadjer-Lamis", "Kanem", "Lac", "Logone Occidental", "Logone Oriental", "Mandoul", "Mayo-Kebbi Est", "Mayo-Kebbi Ouest", "Moyen-Chari", "Ouaddaï", "Salamat", "Tandjilé", "Tibesti", "Ville de N'Djamena", "Wadi Fira"]
+  },
+  "DJ": {
+    "nombre": "Yibuti",
+    "estados": ["Ali Sabieh", "Arta", "Dikhil", "Djibouti", "Obock", "Tadjourah"]
+  },
+  "SZ": {
+    "nombre": "Esuatini",
+    "estados": ["Hhohho", "Lubombo", "Manzini", "Shiselweni"]
+  },
+  "LS": {
+    "nombre": "Lesoto",
+    "estados": ["Berea", "Butha-Buthe", "Leribe", "Mafeteng", "Maseru", "Mohale's Hoek", "Mokhotlong", "Qacha's Nek", "Quthing", "Thaba-Tseka"]
+  },
+  "EC": {
+  "nombre": "Ecuador",
+  "estados": ["Azuay", "Bolívar", "Cañar", "Carchi", "Chimborazo", "Cotopaxi", "El Oro", "Esmeraldas", "Galápagos", "Guayas", "Imbabura", "Loja", "Los Ríos", "Manabí", "Morona Santiago", "Napo", "Orellana", "Pastaza", "Pichincha", "Santa Elena", "Santo Domingo de los Tsáchilas", "Sucumbíos", "Tungurahua", "Zamora Chinchipe"]
+},
+"BO": {
+  "nombre": "Bolivia",
+  "estados": ["Beni", "Chuquisaca", "Cochabamba", "La Paz", "Oruro", "Pando", "Potosí", "Santa Cruz", "Tarija"]
+},
+"PY": {
+  "nombre": "Paraguay",
+  "estados": ["Alto Paraguay", "Alto Paraná", "Amambay", "Asunción", "Boquerón", "Caaguazú", "Caazapá", "Canindeyú", "Central", "Concepción", "Cordillera", "Guairá", "Itapúa", "Misiones", "Ñeembucú", "Paraguarí", "Presidente Hayes", "San Pedro"]
+},
+"UY": {
+  "nombre": "Uruguay",
+  "estados": ["Artigas", "Canelones", "Cerro Largo", "Colonia", "Durazno", "Flores", "Florida", "Lavalleja", "Maldonado", "Montevideo", "Paysandú", "Río Negro", "Rivera", "Rocha", "Salto", "San José", "Soriano", "Tacuarembó", "Treinta y Tres"]
+},
+"CR": {
+  "nombre": "Costa Rica",
+  "estados": ["Alajuela", "Cartago", "Guanacaste", "Heredia", "Limón", "Puntarenas", "San José"]
+},
+"PA": {
+  "nombre": "Panamá",
+  "estados": ["Bocas del Toro", "Coclé", "Colón", "Chiriquí", "Darién", "Herrera", "Los Santos", "Panamá", "Veraguas", "Panamá Oeste", "Emberá", "Guna Yala", "Ngäbe-Buglé"]
+},
+"GT": {
+  "nombre": "Guatemala",
+  "estados": ["Alta Verapaz", "Baja Verapaz", "Chimaltenango", "Chiquimula", "El Progreso", "Escuintla", "Guatemala", "Huehuetenango", "Izabal", "Jalapa", "Jutiapa", "Petén", "Quetzaltenango", "Quiché", "Retalhuleu", "Sacatepéquez", "San Marcos", "Santa Rosa", "Sololá", "Suchitepéquez", "Totonicapán", "Zacapa"]
+},
+"HN": {
+  "nombre": "Honduras",
+  "estados": ["Atlántida", "Choluteca", "Colón", "Comayagua", "Copán", "Cortés", "El Paraíso", "Francisco Morazán", "Gracias a Dios", "Intibucá", "Islas de la Bahía", "La Paz", "Lempira", "Ocotepeque", "Olancho", "Santa Bárbara", "Valle", "Yoro"]
+},
+"NI": {
+  "nombre": "Nicaragua",
+  "estados": ["Boaco", "Carazo", "Chinandega", "Chontales", "Estelí", "Granada", "Jinotega", "León", "Madriz", "Managua", "Masaya", "Matagalpa", "Nueva Segovia", "Río San Juan", "Rivas", "Región Autónoma de la Costa Caribe Norte", "Región Autónoma de la Costa Caribe Sur"]
+},
+"SV": {
+  "nombre": "El Salvador",
+  "estados": ["Ahuachapán", "Cabañas", "Chalatenango", "Cuscatlán", "La Libertad", "La Paz", "La Unión", "Morazán", "San Miguel", "San Salvador", "San Vicente", "Santa Ana", "Sonsonate", "Usulután"]
+},
+"JM": {
+  "nombre": "Jamaica",
+  "estados": ["Clarendon", "Hanover", "Kingston", "Manchester", "Portland", "Saint Andrew", "Saint Ann", "Saint Catherine", "Saint Elizabeth", "Saint James", "Saint Mary", "Saint Thomas", "Trelawny", "Westmoreland"]
+},
+"TT": {
+  "nombre": "Trinidad y Tobago",
+  "estados": ["Arima", "Chaguanas", "Couva-Tabaquite-Talparo", "Diego Martin", "Eastern Tobago", "Penal-Debe", "Point Fortin", "Port of Spain", "Princes Town", "San Fernando", "San Juan-Laventille", "Sangre Grande", "Siparia", "Tunapuna-Piarco", "Western Tobago"]
+},
+"BS": {
+  "nombre": "Bahamas",
+  "estados": ["Acklins", "Berry Islands", "Bimini", "Black Point", "Cat Island", "Central Abaco", "Central Andros", "Central Eleuthera", "City of Freeport", "Crooked Island", "East Grand Bahama", "Exuma", "Grand Cay", "Harbour Island", "Hope Town", "Inagua", "Long Island", "Mangrove Cay", "Mayaguana", "Moore's Island", "North Abaco", "North Andros", "North Eleuthera", "Ragged Island", "Rum Cay", "San Salvador", "South Abaco", "South Andros", "South Eleuthera", "Spanish Wells", "West Grand Bahama"]
+},
+"BB": {
+  "nombre": "Barbados",
+  "estados": ["Christ Church", "Saint Andrew", "Saint George", "Saint James", "Saint John", "Saint Joseph", "Saint Lucy", "Saint Michael", "Saint Peter", "Saint Philip", "Saint Thomas"]
+},
+"CU": {
+  "nombre": "Cuba",
+  "estados": ["Artemisa", "Camagüey", "Ciego de Ávila", "Cienfuegos", "Granma", "Guantánamo", "Holguín", "Isla de la Juventud", "La Habana", "Las Tunas", "Matanzas", "Mayabeque", "Pinar del Río", "Sancti Spíritus", "Santiago de Cuba", "Villa Clara"]
+},
+"DO": {
+  "nombre": "República Dominicana",
+  "estados": ["Azua", "Bahoruco", "Barahona", "Dajabón", "Distrito Nacional", "Duarte", "Elías Piña", "El Seibo", "Espaillat", "Hato Mayor", "Hermanas Mirabal", "Independencia", "La Altagracia", "La Romana", "La Vega", "María Trinidad Sánchez", "Monseñor Nouel", "Monte Cristi", "Monte Plata", "Pedernales", "Peravia", "Puerto Plata", "Samaná", "San Cristóbal", "San José de Ocoa", "San Juan", "San Pedro de Macorís", "Sánchez Ramírez", "Santiago", "Santiago Rodríguez", "Santo Domingo", "Valverde"]
+},
+"HT": {
+  "nombre": "Haití",
+  "estados": ["Artibonite", "Centre", "Grand'Anse", "Nippes", "Nord", "Nord-Est", "Nord-Ouest", "Ouest", "Sud", "Sud-Est"]
+},
+"GL": {
+  "nombre": "Groenlandia",
+  "estados": ["Avannaata", "Kujalleq", "Qeqertalik", "Qeqqata", "Sermersooq"]
+},
+"IS": {
+  "nombre": "Islandia",
+  "estados": ["Austurland", "Höfuðborgarsvæðið", "Norðurland eystra", "Norðurland vestra", "Suðurland", "Suðurnes", "Vestfirðir", "Vesturland"]
+},
+"FO": {
+  "nombre": "Islas Feroe",
+  "estados": ["Eysturoy", "Norðoyar", "Sandoy", "Streymoy", "Suðuroy", "Vágar"]
+},
+"EE": {
+  "nombre": "Estonia",
+  "estados": ["Harju", "Hiiu", "Ida-Viru", "Jõgeva", "Järva", "Lääne", "Lääne-Viru", "Põlva", "Pärnu", "Rapla", "Saare", "Tartu", "Valga", "Viljandi", "Võru"]
+},
+"LV": {
+  "nombre": "Letonia",
+  "estados": ["Aizkraukle", "Alūksne", "Balvi", "Bauska", "Cēsis", "Daugavpils", "Dobele", "Gulbene", "Jēkabpils", "Jelgava", "Jūrmala", "Krāslava", "Kuldīga", "Liepāja", "Limbaži", "Ludza", "Madona", "Ogre", "Preiļi", "Rēzekne", "Riga", "Saldus", "Talsi", "Tukums", "Valka", "Valmiera", "Ventspils"]
+},
+"LT": {
+  "nombre": "Lituania",
+  "estados": ["Alytus", "Kaunas", "Klaipėda", "Marijampolė", "Panevėžys", "Šiauliai", "Tauragė", "Telšiai", "Utena", "Vilnius"]
+},
+"BY": {
+  "nombre": "Bielorrusia",
+  "estados": ["Brest", "Gomel", "Grodno", "Minsk", "Mogilev", "Vitebsk"]
+},
+"MD": {
+  "nombre": "Moldavia",
+  "estados": ["Anenii Noi", "Bălți", "Basarabeasca", "Bender", "Briceni", "Cahul", "Călărași", "Cantemir", "Căușeni", "Chișinău", "Cimișlia", "Criuleni", "Dondușeni", "Drochia", "Dubăsari", "Edineț", "Fălești", "Florești", "Găgăuzia", "Glodeni", "Hîncești", "Ialoveni", "Leova", "Nisporeni", "Ocnița", "Orhei", "Rezina", "Rîșcani", "Sîngerei", "Soroca", "Strășeni", "Șoldănești", "Ștefan Vodă", "Taraclia", "Telenești", "Ungheni"]
+},
+"AL": {
+  "nombre": "Albania",
+  "estados": ["Berat", "Dibër", "Durrës", "Elbasan", "Fier", "Gjirokastër", "Korçë", "Kukës", "Lezhë", "Shkodër", "Tirana", "Vlorë"]
+},
+"MK": {
+  "nombre": "Macedonia del Norte",
+  "estados": ["Aerodrom", "Aračinovo", "Berovo", "Bitola", "Bogdanci", "Bogovinje", "Bosilovo", "Brvenica", "Butel", "Čair", "Čaška", "Centar", "Centar Župa", "Češinovo-Obleševo", "Čučer-Sandevo", "Debar", "Debarca", "Delčevo", "Demir Hisar", "Demir Kapija", "Dojran", "Dolneni", "Drugovo", "Gazi Baba", "Gevgelija", "Gjorče Petrov", "Gostivar", "Gradsko", "Ilinden", "Jegunovce", "Karbinci", "Karpoš", "Kavadarci", "Kičevo", "Kisela Voda", "Kočani", "Konče", "Kratovo", "Kriva Palanka", "Krivogaštani", "Kruševo", "Kumanovo", "Lipkovo", "Lozovo", "Mavrovo y Rostuša", "Mogila", "Negotino", "Novaci", "Novo Selo", "Ohrid", "Oslomej", "Pehčevo", "Petrovec", "Plasnica", "Prilep", "Probištip", "Radoviš", "Rankovce", "Resen", "Rosoman", "Saraj", "Sopište", "Staro Nagoričane", "Struga", "Strumica", "Studeničani", "Štip", "Tearce", "Tetovo", "Valandovo", "Vasilevo", "Veles", "Vevčani", "Vinica", "Vraneštica", "Vrapčište", "Zajas", "Zelenikovo", "Želino", "Zrnovci"]
+},
+"RS": {
+  "nombre": "Serbia",
+  "estados": ["Beograd", "Borski", "Braničevski", "Jablanica", "Južnobački", "Južnobanatski", "Kolubarski", "Mačvanski", "Moravički", "Nišava", "Pčinjski", "Pećki", "Pirotski", "Podunavski", "Pomoravski", "Prizrenski", "Rasinski", "Raški", "Severnobački", "Severnobanatski", "Srednjebanatski", "Sremski", "Šumadijski", "Toplički", "Zaječarski", "Zapadnobački", "Zlatiborski"]
+},
+"ME": {
+  "nombre": "Montenegro",
+  "estados": ["Andrijevica", "Bar", "Berane", "Bijelo Polje", "Budva", "Cetinje", "Danilovgrad", "Gusinje", "Herceg Novi", "Kolašin", "Kotor", "Mojkovac", "Nikšić", "Petnjica", "Plav", "Pljevlja", "Plužine", "Podgorica", "Rožaje", "Šavnik", "Tivat", "Ulcinj", "Žabljak"]
+},
+"HR": {
+  "nombre": "Croacia",
+  "estados": ["Bjelovar-Bilogora", "Brod-Posavina", "Dubrovnik-Neretva", "Istria", "Karlovac", "Koprivnica-Križevci", "Krapina-Zagorje", "Lika-Senj", "Međimurje", "Osijek-Baranja", "Požega-Eslavonia", "Primorje-Gorski Kotar", "Sibenik-Knin", "Sisak-Moslavina", "Split-Dalmacia", "Varaždin", "Virovitica-Podravina", "Vukovar-Sirmia", "Zadar", "Zagreb", "Zagreb City"]
+},
+"SI": {
+  "nombre": "Eslovenia",
+  "estados": ["Ajdovščina", "Beltinci", "Bled", "Bohinj", "Borovnica", "Bovec", "Brda", "Brezovica", "Brežice", "Celje", "Cerklje na Gorenjskem", "Cerknica", "Cerkno", "Črenšovci", "Črna na Koroškem", "Črnomelj", "Destrnik", "Divača", "Dobrova-Polhov Gradec", "Dol pri Ljubljani", "Domžale", "Dornava", "Dravograd", "Duplek", "Gorenja vas-Poljane", "Gorišnica", "Gornja Radgona", "Gornji Grad", "Gornji Petrovci", "Grosuplje", "Hrastnik", "Hrpelje-Kozina", "Idrija", "Ig", "Ilirska Bistrica", "Ivančna Gorica", "Izola", "Jesenice", "Juršinci", "Kamnik", "Kanal", "Kidričevo", "Kobarid", "Kobilje", "Kočevje", "Komen", "Komenda", "Koper", "Kostel", "Kozje", "Kranj", "Kranjska Gora", "Križevci", "Kungota", "Kuzma", "Laško", "Lenart", "Lendava", "Litija", "Ljubljana", "Ljubno", "Ljutomer", "Logatec", "Loška Dolina", "Loški Potok", "Lukovica", "Majšperk", "Maribor", "Markovci", "Medvode", "Mengeš", "Metlika", "Mežica", "Miklavž na Dravskem Polju", "Miren-Kostanjevica", "Mirna Peč", "Mislinja", "Moravče", "Moravske Toplice", "Mozirje", "Murska Sobota", "Muta", "Naklo", "Nazarje", "Nova Gorica", "Novo Mesto", "Odranci", "Ormož", "Osilnica", "Pesnica", "Piran", "Pivka", "Podčetrtek", "Podlehnik", "Podvelka", "Polzela", "Postojna", "Prebold", "Preddvor", "Ptuj", "Puconci", "Rače-Fram", "Radeče", "Radenci", "Radlje ob Dravi", "Radovljica", "Ravne na Koroškem", "Razkrižje", "Ribnica", "Rogašovci", "Rogaška Slatina", "Rogatec", "Ruše", "Selnica ob Dravi", "Semič", "Sevnica", "Sežana", "Slovenj Gradec", "Slovenska Bistrica", "Slovenske Konjice", "Starše", "Sveti Andraž v Slovenskih Goricah", "Sveti Jurij", "Sveti Jurij v Slovenskih Goricah", "Sveti Tomaž", "Šalovci", "Šempeter-Vrtojba", "Šenčur", "Šentilj", "Šentjernej", "Šentjur", "Škocjan", "Škofja Loka", "Škofljica", "Šmarje pri Jelšah", "Šmartno ob Paki", "Šmartno pri Litiji", "Šoštanj", "Štore", "Tolmin", "Trbovlje", "Trebnje", "Trnovska Vas", "Tržič", "Turnišče", "Velenje", "Velika Polana", "Velike Lašče", "Veržej", "Videm", "Vipava", "Vitanje", "Vodice", "Vojnik", "Vrhnika", "Vuzenica", "Zagorje ob Savi", "Zavrč", "Zreče", "Žalec", "Železniki", "Žetale", "Žiri", "Žirovnica", "Žužemberk"]
+},
+"SK": {
+  "nombre": "Eslovaquia",
+  "estados": ["Banská Bystrica", "Bratislava", "Košice", "Nitra", "Prešov", "Trenčín", "Trnava", "Žilina"]
+},
+"LU": {
+  "nombre": "Luxemburgo",
+  "estados": ["Capellen", "Clervaux", "Diekirch", "Echternach", "Esch-sur-Alzette", "Grevenmacher", "Luxemburgo", "Mersch", "Redange", "Remich", "Vianden", "Wiltz"]
+},
+"LI": {
+  "nombre": "Liechtenstein",
+  "estados": ["Balzers", "Eschen", "Gamprin", "Mauren", "Planken", "Ruggell", "Schaan", "Schellenberg", "Triesen", "Triesenberg", "Vaduz"]
+},
+"MC": {
+  "nombre": "Mónaco",
+  "estados": ["La Condamine", "Monaco-Ville", "Monte Carlo", "Fontvieille", "Moneghetti", "Saint Michel", "Sainte Dévote", "La Rousse", "Larvotto", "Jardin Exotique"]
+},
+"SM": {
+  "nombre": "San Marino",
+  "estados": ["Acquaviva", "Borgo Maggiore", "Chiesanuova", "Domagnano", "Faetano", "Fiorentino", "Montegiardino", "San Marino", "Serravalle"]
+},
+"VA": {
+  "nombre": "Ciudad del Vaticano",
+  "estados": ["Ciudad del Vaticano"]
+},
+"MT": {
+  "nombre": "Malta",
+  "estados": ["Attard", "Balzan", "Birgu", "Birkirkara", "Birżebbuġa", "Bormla", "Dingli", "Fgura", "Floriana", "Fontana", "Għajnsielem", "Għarb", "Għargħur", "Għasri", "Għaxaq", "Gudja", "Gżira", "Ħamrun", "Iklin", "Isla", "Kalkara", "Kerċem", "Kirkop", "Lija", "Luqa", "Marsa", "Marsaskala", "Marsaxlokk", "Mdina", "Mellieħa", "Mġarr", "Mosta", "Mqabba", "Msida", "Mtarfa", "Munxar", "Nadur", "Naxxar", "Paola", "Pembroke", "Pietà", "Qala", "Qormi", "Qrendi", "Rabat", "Safi", "San Ġiljan", "San Ġwann", "San Lawrenz", "San Pawl il-Baħar", "Sannat", "Santa Luċija", "Santa Venera", "Siġġiewi", "Sliema", "Swieqi", "Ta' Xbiex", "Tarxien", "Valletta", "Xagħra", "Xewkija", "Xgħajra", "Żabbar", "Żebbuġ Gozo", "Żebbuġ Malta", "Żejtun", "Żurrieq"]
+},
+"CY": {
+  "nombre": "Chipre",
+  "estados": ["Famagusta", "Kyrenia", "Larnaca", "Limassol", "Nicosia", "Pafos"]
+},
+"GE": {
+  "nombre": "Georgia",
+  "estados": ["Abjasia", "Adjara", "Guria", "Imereti", "Kakheti", "Kvemo Kartli", "Mtskheta-Mtianeti", "Racha-Lechkhumi y Kvemo Svaneti", "Samegrelo-Zemo Svaneti", "Samtskhe-Javakheti", "Shida Kartli", "Tbilisi"]
+},
+"AM": {
+  "nombre": "Armenia",
+  "estados": ["Aragatsotn", "Ararat", "Armavir", "Ereván", "Gegharkunik", "Kotayk", "Lori", "Shirak", "Syunik", "Tavush", "Vayots Dzor"]
+},
+"AZ": {
+  "nombre": "Azerbaiyán",
+  "estados": ["Abseron", "Agcabadi", "Agdam", "Agdas", "Agstafa", "Agsu", "Astara", "Baku", "Balakan", "Barda", "Beylagan", "Bilasuvar", "Cabrayil", "Calilabad", "Daskasan", "Davaci", "Fuzuli", "Gadabay", "Ganca", "Goranboy", "Goycay", "Haciqabul", "Imisli", "Ismayilli", "Kalbacar", "Kurdamir", "Lacin", "Lankaran", "Lankaran City", "Lerik", "Masalli", "Mingacevir", "Naftalan", "Neftcala", "Oguz", "Qabala", "Qax", "Qazax", "Qobustan", "Quba", "Qubadli", "Qusar", "Saatli", "Sabirabad", "Saki", "Saki City", "Salyan", "Samaxi", "Samkir", "Samux", "Siyazan", "Sumqayit", "Susa", "Tartar", "Tovuz", "Ucar", "Xacmaz", "Xankandi", "Xanlar", "Xizi", "Xocali", "Xocavand", "Yardimli", "Yevlax", "Yevlax City", "Zangilan", "Zaqatala", "Zardab"]
+},
+"FJ": {
+  "nombre": "Fiyi",
+  "estados": ["Ba", "Bua", "Cakaudrove", "Kadavu", "Lau", "Lomaiviti", "Macuata", "Nadroga-Navosa", "Naitasiri", "Namosi", "Ra", "Rewa", "Serua", "Tailevu", "Rotuma"]
+},
+"PG": {
+  "nombre": "Papúa Nueva Guinea",
+  "estados": ["Bougainville", "Central", "Chimbu", "East New Britain", "East Sepik", "Eastern Highlands", "Enga", "Gulf", "Hela", "Jiwaka", "Madang", "Manus", "Milne Bay", "Morobe", "National Capital", "New Ireland", "Northern", "Sandaun", "Southern Highlands", "West New Britain", "West Sepik", "Western", "Western Highlands"]
+},
+"SB": {
+  "nombre": "Islas Salomón",
+  "estados": ["Central", "Choiseul", "Guadalcanal", "Honiara", "Isabel", "Makira-Ulawa", "Malaita", "Rennell and Bellona", "Temotu", "Western"]
+},
+"VU": {
+  "nombre": "Vanuatu",
+  "estados": ["Malampa", "Pénama", "Sanma", "Shefa", "Tafea", "Torba"]
+},
+"WS": {
+  "nombre": "Samoa",
+  "estados": ["A'ana", "Aiga-i-le-Tai", "Atua", "Fa'asaleleaga", "Gaga'emauga", "Gagaifomauga", "Palauli", "Satupa'itea", "Tuamasaga", "Va'a-o-Fonoti", "Vaisigano"]
+},
+"TO": {
+  "nombre": "Tonga",
+  "estados": ["Eua", "Ha'apai", "Niuas", "Tongatapu", "Vava'u"]
+},
+"KI": {
+  "nombre": "Kiribati",
+  "estados": ["Gilbert Islands", "Line Islands", "Phoenix Islands"]
+},
+"TV": {
+  "nombre": "Tuvalu",
+  "estados": ["Funafuti", "Nanumanga", "Nanumea", "Niutao", "Nui", "Nukufetau", "Nukulaelae", "Vaitupu"]
+},
+"NR": {
+  "nombre": "Nauru",
+  "estados": ["Aiwo", "Anabar", "Anetan", "Anibare", "Baiti", "Boe", "Buada", "Denigomodu", "Ewa", "Ijuw", "Meneng", "Nibok", "Uaboe", "Yaren"]
+},
+"MH": {
+  "nombre": "Islas Marshall",
+  "estados": ["Ailinglaplap", "Ailuk", "Arno", "Aur", "Bikini", "Ebon", "Enewetak", "Jabat", "Jaluit", "Kili", "Kwajalein", "Lae", "Lib", "Likiep", "Majuro", "Maloelap", "Mejit", "Mili", "Namdrik", "Namu", "Rongelap", "Ujae", "Utrik", "Wotho", "Wotje"]
+},
+"FM": {
+  "nombre": "Micronesia",
+  "estados": ["Chuuk", "Kosrae", "Pohnpei", "Yap"]
+},
+"PW": {
+  "nombre": "Palaos",
+  "estados": ["Aimeliik", "Airai", "Angaur", "Hatobohei", "Kayangel", "Koror", "Melekeok", "Ngaraard", "Ngarchelong", "Ngardmau", "Ngatpang", "Ngchesar", "Ngeremlengui", "Ngiwal", "Peleliu", "Sonsorol"]
+},
+"TL": {
+  "nombre": "Timor Oriental",
+  "estados": ["Aileu", "Ainaro", "Baucau", "Bobonaro", "Cova Lima", "Dili", "Ermera", "Lautém", "Liquiçá", "Manatuto", "Manufahi", "Oecusse", "Viqueque"]
+},
+"BT": {
+  "nombre": "Bután",
+  "estados": ["Bumthang", "Chukha", "Dagana", "Gasa", "Haa", "Lhuntse", "Mongar", "Paro", "Pemagatshel", "Punakha", "Samdrup Jongkhar", "Samtse", "Sarpang", "Thimphu", "Trashigang", "Trashiyangtse", "Trongsa", "Tsirang", "Wangdue Phodrang", "Zhemgang"]
+},
+"MV": {
+  "nombre": "Maldivas",
+  "estados": ["Alifu Alifu", "Alifu Dhaalu", "Baa", "Dhaalu", "Faafu", "Gaafu Alifu", "Gaafu Dhaalu", "Gnaviyani", "Haa Alifu", "Haa Dhaalu", "Kaafu", "Laamu", "Lhaviyani", "Malé", "Meemu", "Noonu", "Raa", "Seenu", "Shaviyani", "Thaa", "Vaavu"]
+},
+"BN": {
+  "nombre": "Brunéi",
+  "estados": ["Belait", "Brunei-Muara", "Temburong", "Tutong"]
+},
+"SG": {
+  "nombre": "Singapur",
+  "estados": ["Central", "East", "North", "North-East", "West"]
+},
+"QA": {
+  "nombre": "Catar",
+  "estados": ["Ad Dawhah", "Al Daayen", "Al Khor", "Al Rayyan", "Al Wakrah", "Al-Shahaniya", "Madinat ash Shamal", "Umm Salal"]
+},
+"BH": {
+  "nombre": "Baréin",
+  "estados": ["Capital", "Central", "Muharraq", "Northern", "Southern"]
+},
+"KW": {
+  "nombre": "Kuwait",
+  "estados": ["Al Ahmadi", "Al Asimah", "Al Farwaniyah", "Al Jahra", "Hawalli", "Mubarak Al-Kabeer"]
+},
+"OM": {
+  "nombre": "Omán",
+  "estados": ["Ad Dakhiliyah", "Ad Dhahirah", "Al Batinah North", "Al Batinah South", "Al Buraimi", "Al Sharqiyah North", "Al Sharqiyah South", "Al Wusta", "Dhofar", "Muscat", "Musandam"]
+},
+"JO": {
+  "nombre": "Jordania",
+  "estados": ["Ajloun", "Amán", "Aqaba", "Balqa", "Irbid", "Jerash", "Karak", "Ma'an", "Madaba", "Mafraq", "Tafila", "Zarqa"]
+},
+"LB": {
+  "nombre": "Líbano",
+  "estados": ["Beqaa", "Mount Lebanon", "North", "Nabatieh", "South", "Beirut"]
+},
+"PS": {
+  "nombre": "Palestina",
+  "estados": ["Cisjordania", "Franja de Gaza"]
+},
+"YE": {
+  "nombre": "Yemen",
+  "estados": ["Abyan", "Adén", "Al Bayda", "Al Hudaydah", "Al Jawf", "Al Mahrah", "Al Mahwit", "Amran", "Dhamar", "Hadramaut", "Hajjah", "Ibb", "Lahij", "Ma'rib", "Raymah", "Sa'dah", "Sana'a", "Shabwah", "Socotra", "Taiz"]
+},
+"SY": {
+  "nombre": "Siria",
+  "estados": ["Al-Hasakah", "Al-Raqqah", "Alepo", "As-Suwayda", "Daraa", "Deir ez-Zor", "Damasco", "Damasco Rural", "Hama", "Homs", "Idlib", "Latakia", "Quneitra", "Tartus"]
+},
+"MN": {
+  "nombre": "Mongolia",
+  "estados": ["Arkhangai", "Bayan-Ölgii", "Bayankhongor", "Bulgan", "Darkhan-Uul", "Dornod", "Dornogovi", "Dundgovi", "Govi-Altai", "Govisümber", "Khentii", "Khovd", "Khövsgöl", "Ömnögovi", "Orkhon", "Övörkhangai", "Selenge", "Sükhbaatar", "Töv", "Uvs", "Zavkhan", "Ulaanbaatar"]
+},
+"KP": {
+  "nombre": "Corea del Norte",
+  "estados": ["Chagang", "Hamgyong del Norte", "Hamgyong del Sur", "Hwanghae del Norte", "Hwanghae del Sur", "Kangwon", "Pyongan del Norte", "Pyongan del Sur", "Pyongyang", "Ryanggang"]
+},
+"LA": {
+  "nombre": "Laos",
+  "estados": ["Attapeu", "Bokeo", "Bolikhamxai", "Champasak", "Houaphanh", "Khammouane", "Luang Namtha", "Luang Prabang", "Oudomxay", "Phongsaly", "Salavan", "Savannakhet", "Sekong", "Vientiane", "Vientiane Prefecture", "Xaignabouli", "Xekong", "Xiangkhouang"]
+},
+"KG": {
+  "nombre": "Kirguistán",
+  "estados": ["Batken", "Chuy", "Jalal-Abad", "Naryn", "Osh", "Talas", "Ysyk-Kol"]
+},
+"TJ": {
+  "nombre": "Tayikistán",
+  "estados": ["Dushanbe", "Gorno-Badakhshan", "Khatlon", "Sughd"]
+},
+"TM": {
+  "nombre": "Turkmenistán",
+  "estados": ["Ahal", "Ashgabat", "Balkan", "Dashoguz", "Lebap", "Mary"]
+},
+"MD": {
+  "nombre": "Moldavia",
+  "estados": ["Anenii Noi", "Bălți", "Basarabeasca", "Bender", "Briceni", "Cahul", "Călărași", "Cantemir", "Căușeni", "Chișinău", "Cimișlia", "Criuleni", "Dondușeni", "Drochia", "Dubăsari", "Edineț", "Fălești", "Florești", "Găgăuzia", "Glodeni", "Hîncești", "Ialoveni", "Leova", "Nisporeni", "Ocnița", "Orhei", "Rezina", "Rîșcani", "Sîngerei", "Soroca", "Strășeni", "Șoldănești", "Ștefan Vodă", "Taraclia", "Telenești", "Ungheni"]
+},
+"BA": {
+  "nombre": "Bosnia y Herzegovina",
+  "estados": ["Federación de Bosnia y Herzegovina", "República Srpska", "Distrito de Brčko"]
+},
+"XK": {
+  "nombre": "Kosovo",
+  "estados": ["Ferizaj", "Gjakova", "Gjilan", "Mitrovica", "Peja", "Pristina", "Prizren"]
+},
+"AF": {
+  "nombre": "Afganistán",
+  "estados": ["Badakhshan", "Badghis", "Baghlan", "Balkh", "Bamyan", "Daykundi", "Farah", "Faryab", "Ghazni", "Ghor", "Helmand", "Herat", "Jowzjan", "Kabul", "Kandahar", "Kapisa", "Khost", "Kunar", "Kunduz", "Laghman", "Logar", "Nangarhar", "Nimroz", "Nuristan", "Paktia", "Paktika", "Panjshir", "Parwan", "Samangan", "Sar-e Pol", "Takhar", "Urozgan", "Wardak", "Zabul"]
+},
+"SS": {
+  "nombre": "Sudán del Sur",
+  "estados": ["Central Equatoria", "Eastern Equatoria", "Jonglei", "Lakes", "Northern Bahr el Ghazal", "Unity", "Upper Nile", "Warrap", "Western Bahr el Ghazal", "Western Equatoria"]
+},
+"CF": {
+  "nombre": "República Centroafricana",
+  "estados": ["Bamingui-Bangoran", "Basse-Kotto", "Haute-Kotto", "Haut-Mbomou", "Kémo", "Lobaye", "Mambéré-Kadéï", "Mbomou", "Nana-Grébizi", "Nana-Mambéré", "Ombella-M'Poko", "Ouaka", "Ouham", "Ouham-Pendé", "Sangha-Mbaéré", "Vakaga"]
+},
+"ST": {
+  "nombre": "Santo Tomé y Príncipe",
+  "estados": ["Agua Grande", "Cantagalo", "Caué", "Lembá", "Lobata", "Mé-Zóchi", "Príncipe"]
+},
+"SC": {
+  "nombre": "Seychelles",
+  "estados": ["Anse aux Pins", "Anse Boileau", "Anse Etoile", "Anse Louis", "Anse Royale", "Baie Lazare", "Baie Sainte Anne", "Beau Vallon", "Bel Air", "Bel Ombre", "Cascade", "Glacis", "Grand'Anse Mahé", "Grand'Anse Praslin", "La Digue", "La Rivière Anglaise", "Mont Buxton", "Mont Fleuri", "Plaisance", "Pointe La Rue", "Port Glaud", "Saint Louis", "Takamaka"]
+},
+"KM": {
+  "nombre": "Comoras",
+  "estados": ["Anjouan", "Grande Comore", "Mohéli"]
+},
+"MU": {
+  "nombre": "Mauricio",
+  "estados": ["Agalega Islands", "Beau Bassin-Rose Hill", "Curepipe", "Flacq", "Grand Port", "Moka", "Pamplemousses", "Plaines Wilhems", "Port Louis", "Quatre Bornes", "Rivière du Rempart", "Rivière Noire", "Rodrigues Islands", "Savanne", "Vacoas-Phoenix"]
+},
+"CV": {
+  "nombre": "Cabo Verde",
+  "estados": ["Boa Vista", "Brava", "Maio", "Mosteiros", "Paul", "Porto Novo", "Praia", "Ribeira Brava", "Ribeira Grande", "Ribeira Grande de Santiago", "Sal", "Santa Catarina", "Santa Catarina do Fogo", "Santa Cruz", "São Domingos", "São Filipe", "São Lourenço dos Órgãos", "São Miguel", "São Salvador do Mundo", "São Vicente", "Tarrafal", "Tarrafal de São Nicolau"]
+},
+"GW": {
+  "nombre": "Guinea-Bisáu",
+  "estados": ["Bafatá", "Biombo", "Bissau", "Bolama", "Cacheu", "Gabú", "Oio", "Quinara", "Tombali"]
+},
+"GQ": {
+  "nombre": "Guinea Ecuatorial",
+  "estados": ["Annobón", "Bioko Norte", "Bioko Sur", "Centro Sur", "Kié-Ntem", "Litoral", "Wele-Nzas"]
+},
+"TL": {
+  "nombre": "Timor Oriental",
+  "estados": ["Aileu", "Ainaro", "Baucau", "Bobonaro", "Cova Lima", "Dili", "Ermera", "Lautém", "Liquiçá", "Manatuto", "Manufahi", "Oecusse", "Viqueque"]
+},
+"DJ": {
+  "nombre": "Yibuti",
+  "estados": ["Ali Sabieh", "Arta", "Dikhil", "Djibouti", "Obock", "Tadjourah"]
+},
+"ER": {
+  "nombre": "Eritrea",
+  "estados": ["Anseba", "Debub", "Debubawi Keyih Bahri", "Gash-Barka", "Maekel", "Northern Red Sea", "Southern Red Sea"]
+},
+"SO": {
+  "nombre": "Somalia",
+  "estados": ["Awdal", "Bakool", "Banaadir", "Bari", "Bay", "Galguduud", "Gedo", "Hiiraan", "Jubbada Dhexe", "Jubbada Hoose", "Mudug", "Nugaal", "Sanaag", "Shabeellaha Dhexe", "Shabeellaha Hoose", "Sool", "Togdheer", "Woqooyi Galbeed"]
+},
+"DJ": {
+  "nombre": "Yibuti",
+  "estados": ["Ali Sabieh", "Arta", "Dikhil", "Djibouti", "Obock", "Tadjourah"]
+}
+}
